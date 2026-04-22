@@ -1,0 +1,39 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+sqlalchemy==2.0.36
+alembic>=1.13,<2
+pymysql==1.1.1
+pydantic==2.9.2
+pydantic-settings==2.6.1
+python-jose[cryptography]==3.3.0
+passlib==1.7.4
+python-multipart==0.0.12
+jinja2==3.1.4
+reportlab==4.2.5
+aiofiles==24.1.0
+email-validator==2.2.0
+python-docx==1.1.2
+textract==1.6.3
+PyMuPDF==1.25.3
+Pillow==11.1.0
+pytesseract==0.3.13
+pandas==2.3.2
+xlrd==1.2.0
+openpyxl
+pymilvus==2.6.9
+# milvus-lite 在当前 Windows + Python 3.13 环境下无可用发行版。
+# 运行时会优先连接真实 Milvus；若本地 Lite 不可用，则自动回退到本地向量仓以保证项目可运行。
+langchain>=1.0,<2
+langchain-openai>=1.0,<2
+langgraph>=1.1,<2
+
+# Agent 增强依赖
+sentence-transformers>=2.2.0
+rank-bm25>=0.2.2
+torch>=2.0.0
+numpy>=1.24.0
+
+# Neo4j 图数据库
+neo4j>=5.0
+pywin32
+milvus-lite

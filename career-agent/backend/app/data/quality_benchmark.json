@@ -1,0 +1,33 @@
+{
+  "job_portrait_samples": [
+    {
+      "job_keyword": "java",
+      "must_have_skills": ["java", "spring", "mysql"],
+      "must_have_dimensions": ["professional_skill", "certificate", "innovation", "learning", "stress_resistance", "communication", "internship"]
+    },
+    {
+      "job_keyword": "前端",
+      "must_have_skills": ["vue", "typescript", "javascript"],
+      "must_have_dimensions": ["professional_skill", "certificate", "innovation", "learning", "stress_resistance", "communication", "internship"]
+    },
+    {
+      "job_keyword": "数据",
+      "must_have_skills": ["python", "sql", "分析"],
+      "must_have_dimensions": ["professional_skill", "certificate", "innovation", "learning", "stress_resistance", "communication", "internship"]
+    }
+  ],
+  "student_portrait_samples": [
+    {
+      "student_no": "2022001",
+      "expected_strengths": ["professional_skill", "learning"],
+      "must_have_dimensions": ["professional_skill", "certificate", "innovation", "learning", "stress_resistance", "communication", "internship"]
+    }
+  ],
+  "job_match_samples": [
+    {
+      "student_no": "2022001",
+      "expected_top_job_keywords": ["前端", "java", "产品"],
+      "must_have_match_dimensions": ["basic_requirement", "professional_skill", "professional_literacy", "development_potential"]
+    }
+  ]
+}

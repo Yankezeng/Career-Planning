@@ -1,0 +1,52 @@
+# Archives and duplicate packaged exports
+/Career.zip
+/Career/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Node / frontend builds
+node_modules/
+dist/
+.vite/
+
+# Local environment and secrets
+.env
+*.env
+!*.env.example
+
+# Runtime data
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+*.bak_*
+*.db.bak*
+uploads/
+reports/
+career-agent/backend/*output*.txt
+career-agent/backend/test_*.txt
+career-agent/backend/api_test*.txt
+career-agent/backend/*results*.txt
+
+# Large local model artifacts
+/models/
+/career-agent/models/*
+!/career-agent/models/
+!/career-agent/models/README.md
+
+# IDE and local tooling
+.idea/
+.vscode/
+.trae/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.uploading.cfg
